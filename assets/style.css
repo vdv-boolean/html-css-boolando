@@ -182,6 +182,14 @@ footer span {
 	padding: 0 0.5em;
 }
 
+.social span {
+	font-size: 0.8em;
+}
+
 .company li {
-	font-size: 0.6em;
+	font-size: 0.7em;
+	margin: 0.5em 0.2em;
+}
+.social li {
+	margin-top: 0.5em;
 }
