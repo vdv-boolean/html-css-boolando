@@ -38,7 +38,7 @@ a {
 	clear: both;}
 
 /* End General */
-	
+
 /* Header */
 
 header {
@@ -72,6 +72,22 @@ main {
 	margin: 1em 1em;
 }
 
+/* Info box style */
+.brand,
+.product {
+	display: block;
+}
+.product {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.price {
+	color: red;
+}
+
+.old-price {
+	text-decoration: line-through;
+}
 /* Footer */
 
 footer {
