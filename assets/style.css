@@ -16,11 +16,16 @@
 	height: 100%;
 }
 
+/* Clearfix */
+
+.clearfix {
+	clear: both;}
 
 /* Header */
 
 header {
  /* Exact bg color */
+ margin-bottom: 2em;
 }
 
 nav {
@@ -42,9 +47,24 @@ li {
 a {
 	text-decoration: none;
 	color: white;
-
 }
 
 .logo {
 	height: 1.5em;
+}
+
+/* Main */
+
+main {
+	margin-bottom: 2em;
+}
+
+.container {
+	margin: auto;
+	max-width: 1000px;
+}
+
+.article {
+float: left;
+margin: 1em 1em;
 }
