@@ -1,0 +1,14 @@
+header {
+    background-color: orange; /* TO DO: Set right color */
+    height: 4em;
+}
+
+main {
+    background-color: white;
+    min-height: 500px;
+}
+
+footer {
+    background-color: black; /* TO DO: Set right color */
+    height: 4em;
+}
