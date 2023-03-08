@@ -72,6 +72,62 @@ main {
 	margin: 1em 1em;
 }
 
+/* Labels */
+.like {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.like:hover {
+color: red;
+}
+
+.discount {
+    width: 2.5em;
+    height: 1.5em;
+    background-color: red;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    color: white;
+    text-align: center;
+
+}
+
+.eco {
+    width: 6em;
+    height: 1.5em;
+    background-color: green;
+    position: absolute;
+    bottom: 20px;
+    left: 3em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+} 
+
+#no-left {
+    left: 0;
+}
+
+.img-article {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0 ;
+
+}
+
+.hover:hover {
+    opacity: 0%;
+}
+
+
 /* Info box style */
 .brand,
 .product {
