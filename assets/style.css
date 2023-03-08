@@ -7,6 +7,22 @@
 }
 
 /* General */
+/* Unorder list and element list */
+ul {
+	justify-content: space-between;
+}
+
+li {
+	list-style: none; 
+	padding: 0 0.5em;
+	color: white;
+}
+
+/* Link */
+a {
+	text-decoration: none;
+	color: white;
+}
 
 /* Flex */
 
@@ -21,6 +37,8 @@
 .clearfix {
 	clear: both;}
 
+/* End General */
+	
 /* Header */
 
 header {
@@ -28,25 +46,10 @@ header {
  margin-bottom: 2em;
 }
 
-nav {
+header nav {
 	justify-content: space-between;
 	max-width: 1000px;
 	margin: auto;
-}
-
-ul {
-	justify-content: space-between;
-}
-
-li {
-	list-style: none; 
-	padding: 0 0.5em;
-	color: white;
-}
-
-a {
-	text-decoration: none;
-	color: white;
 }
 
 .logo {
@@ -65,6 +68,22 @@ main {
 }
 
 .article {
-float: left;
-margin: 1em 1em;
+	float: left;
+	margin: 1em 1em;
+}
+
+/* Footer */
+
+footer {
+	/* Exact bg color */
+}
+
+footer nav {
+	justify-content: space-between;
+	max-width: 1000px;
+	margin: auto;
+}
+footer span {
+	color: white;
+	padding: 0 0.5em;
 }
