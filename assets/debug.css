@@ -1,7 +1,7 @@
 /* Structure colors and dimensions*/
 header {
-    background-color: orange; /* TO DO: Set right color */
-    height: 4em;
+ /*   background-color: orange; */
+    /* height: 4em; */
 }
 
 main {
@@ -10,7 +10,7 @@ main {
 }
 
 footer {
-    background-color: black; /* TO DO: Set right color */
+  /*  background-color: black; */
     height: 4em;
 }
 
@@ -19,7 +19,7 @@ footer {
     height: 450px;
     width: 300px;
 /*  background-color: black; */
-    border: 3px solid red;  
+    /* border: 3px solid red;  */
 } 
 
 .preview {
