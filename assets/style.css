@@ -86,7 +86,11 @@ main {
 color: red;
 }
 
-.discount {
+.preview .flex {
+	justify-content: center;
+}
+
+.sale {
     width: 2.5em;
     height: 1.5em;
     background-color: red;
