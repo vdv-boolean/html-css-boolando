@@ -85,3 +85,7 @@ color: red;
     top: 0;
     left: 0 ;
 }
+
+.hover:hover {
+    opacity: 0%;
+}
